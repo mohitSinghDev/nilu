@@ -1,0 +1,363 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  position: absolute;
+  background-image: url("https://static.pexels.com/photos/248515/pexels-photo-248515.png");
+  background-position: center;
+  background-position-x: center background-position-y: center background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+.welcome {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.pjai {
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  padding-top: 6%;
+  padding-left: 20%;
+  width: 70%;
+}
+
+.btn {
+  margin-left: 42%;
+  margin-top: 50px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3DF642);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3DF642);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3DF642);
+  background-image: -o-linear-gradient(top, #1E62D0, #3DF642);
+  background-image: -webkit-gradient(to bottom, #1E62D0, #3DF642);
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  border-radius: 11px;
+  height: 0;
+  line-height: 0;
+  color: #FFFFFF;
+  font-family: Georgia;
+  width: 200px;
+  font-size: 39px;
+  font-weight: 100;
+  padding: 24px;
+  -webkit-box-shadow: 1px -2px 20px 0 #0059A0;
+  -moz-box-shadow: 1px -2px 20px 0 #0059A0;
+  box-shadow: 1px -2px 20px 0 #0059A0;
+  text-shadow: -6px 0 26px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #ED3379 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #8D3DF6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #8D3DF6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #8D3DF6);
+  background-image: -o-linear-gradient(top, #1E62D0, #8D3DF6);
+  background-image: -webkit-gradient(to bottom, #1E62D0, #8D3DF6);
+  -webkit-border-radius: 21px;
+  -moz-border-radius: 21px;
+  border-radius: 21px;
+  text-decoration: none;
+}
+
+.second-heading {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.double-para {
+  padding-top: 5%;
+  font-size: 1.1em;
+  line-height: 1.5;
+  width: 30%;
+  padding-left: 30%;
+  line-height: 26.4px;
+}
+
+/* .main-container{
+  color: black;
+  width: 121%;
+}
+.all-sec-b {
+  background-color: black;
+  width: 100%;
+  margin-left: 25px;
+  margin-top: 50px;
+}
+.first {
+  float: left;
+  height: 25%;
+  width: 25%;
+  border: 1em solid gray;
+}
+.web-pic {
+  text-align: center;
+}
+#web-pic {
+  width: 79%;
+}
+.web-content {
+  width: 84%;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.second {
+  float: left;
+  height: 25%;
+  width: 25%;
+  border: 1em solid gray;
+}
+.mobile-pic {
+  text-align: center;
+}
+#mobile-pic {
+  width: 79%;
+}
+.mbl-content {
+  width: 84%;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+
+
+.third {
+  float: left;
+  height: 25%;
+  width: 25%;
+  border: 1em solid gray;
+}
+.t1-img{
+  text-align: center;
+}
+#t1-img {
+  width: 79%;
+}
+.tech-content{
+  width: 84%;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+
+.sec-c {
+  display: inline-block;
+  margin-top: 30px;
+  text-align: center;
+  margin-left: 268px;
+}
+#main-handle {
+  font-size: 2em;
+}
+#handle-para {
+  width: 70%;
+  padding-left: 106px;
+  padding-top: 35px;
+} */
+.padding-container {
+  background: #333;
+  padding: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.webin {
+  margin: 30px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  /* display: inline-block; */
+}
+
+.mobile-app-dev {
+  margin: 30px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  /* display: inline-block; */
+}
+
+.tech-marketing {
+  margin: 30px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  /* display: inline-block; */
+}
+
+#web-pic {
+  /* float: center; */
+  width: 100%;
+  height: auto;
+}
+
+#mobile-pic {
+  /* float: center; */
+  width: 100%;
+  height: auto;
+}
+
+#t1-img {
+  /* float: center; */
+  width: 100%;
+  height: auto;
+}
+
+#ajay {
+  width: 40%;
+  font-size: 1.2em;
+  text-align: center;
+  margin: auto;
+}
+
+#ajay2 {
+  width: 40%;
+  font-size: 1.2em;
+  text-align: center;
+  margin: auto;
+}
+
+.t3 {
+  width: 40%;
+  font-size: 1.2em;
+  text-align: center;
+  margin: auto;
+}
+
+#web {
+  text-align: center;
+  margin-top: inherit;
+}
+
+#mobile {
+  text-align: center;
+  margin-top: inherit;
+}
+
+#t2 {
+  text-align: center;
+  margin-top: inherit;
+}
+
+.handle {
+  text-align: center;
+  margin-top: 45px;
+  padding-bottom: 30px;
+}
+
+.grid2 {
+  display: grid;
+  color: white;
+  grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+}
+
+.contact-us {
+  /* width: 50%;
+  float: left;
+  padding-bottom: 180px; */
+  background-color:brown;
+  grid-column: span 2;
+  font-size: 1em;
+  line-height: 1.5;
+  text-align: center;
+  padding: 2em;
+}
+
+#contact {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+#content-contact {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+#email {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.company {
+  grid-column: span 2;
+  font-size: 1em;
+  line-height: 1.5;
+  text-align: center;
+  background-color: #333;
+  padding: 2em;
+}
+#about-cmny {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+#about-company {
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 2em;
+  }
+
+footer {
+  text-align: center;
+  padding: 2em;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+/* .contact {
+  margin-top: 35px;;
+  text-align: center;
+}
+.content-contact{
+position: absolute;
+width: 40%;
+margin-top: 1%;
+margin-left: 5%;
+text-align: center;
+}
+.email {
+  text-align: center;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 20%;
+}
+.company {
+  /* position: inherit; */
+/*background-color: yellow;
+  /* margin-bottom: 30%; */
+/* padding-bottom: 12.8%; */
+/* border: solid; */
+/* } */
